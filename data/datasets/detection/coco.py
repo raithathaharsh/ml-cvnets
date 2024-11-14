@@ -19,7 +19,7 @@ from ...datasets import BaseImageDataset, register_dataset
 
 
 COCO_CLASS_LIST = ['background',
-                   'cat', 'dog']
+                   'pets', 'cat', 'dog']
 
 
 @register_dataset(name="coco", task="detection")
