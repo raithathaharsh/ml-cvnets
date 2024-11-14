@@ -7,7 +7,7 @@ common:
   mixed_precision: true
 dataset:
   root_train: "/content/ml-cvnets/dataset"
-  root_val: "/content/ml-cvnets/dataset"8
+  root_val: "/content/ml-cvnets/dataset"
   name: "coco_ssd"
   category: "detection"
   train_batch_size0: 32
